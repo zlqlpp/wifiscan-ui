@@ -1,0 +1,36 @@
+<!--pages/create/create.wxml-->
+<view>
+  <image class="image" src="../image/slogen.png" mode="aspectFit"/>
+</view>
+<form bindsubmit="formSubmit"> 
+<view class="container" enable-flex>
+
+  <view class="shop-name">
+    <text>酒店名称:</text>
+    <input type='text' placeholder='请输入酒店名称' bindinput='input' name='hotelName'/>
+  </view>
+  <view class="shop-name">
+    <text>WIFI名称:</text>
+    <input type='text'  placeholder='请输入WIF名称' bindinput='input' name='wifiName'/>
+  </view>
+  <view class="shop-name">
+    <text>WIFI密码:</text>
+    <input type='text'  placeholder='请输入WIFI密码' bindinput='input' name='wifiPwd'/>
+  </view>
+  
+  <view class="info_circle">
+    <icon type="info_circle" size="15" color="blue"/>
+    <text>WIFI密码不会被共享，请放心填写</text>
+  </view>
+  <view class="info_circle">
+    <icon type="info_circle" size="15" color="blue"/>
+    <text>未绑定手机号且未开通商户版，扫码连接没有收益广告分成</text>
+  </view>
+
+</view>
+
+<view>
+  <button class="btn" formType="submit">一键生成WIFI码</button>
+</view>
+
+</form>

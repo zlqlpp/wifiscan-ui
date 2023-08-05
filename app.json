@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/wifi/wifi",
+    "pages/create/create",
+    "pages/mine/mine",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "一键wifi",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#ADD8E6",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "icon/main1.png",
+        "selectedIconPath": "icon/main.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/mine1.png",
+        "selectedIconPath": "icon/mine.png"
+      }
+    ]
+  }
+}

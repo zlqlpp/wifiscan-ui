@@ -1,0 +1,26 @@
+/* pages/mine/mine.wxss */
+
+.user_id{
+  height: 200;
+  font-weight: bold;
+  }
+
+.serach{
+  position: relative;
+}
+.search input{
+  border:1px solid #ccc;
+  border-radius: 6px;
+  height: 30px;
+ }
+ .icons{
+  position: absolute;
+  right: 10px;
+  top:27px;
+ }
+
+.detail{
+  background-color:antiquewhite;
+  height: 200;
+  display: flex;
+}

@@ -1,0 +1,12 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+
+<!-- index.wxml -->
+
+<view class="container">
+  <view class="shop-name">
+    <text class="label">店铺名称：</text>
+    <text>{{ shopName }}</text>
+    <input bindinput="handleInput" class="input" placeholder="请输入店铺名称" />
+  </view>
+</view>

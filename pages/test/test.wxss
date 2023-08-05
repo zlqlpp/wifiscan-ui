@@ -1,0 +1,31 @@
+/* pages/test/test.wxss */
+
+/* index.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.shop-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.input {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 16px;
+}

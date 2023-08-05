@@ -1,0 +1,21 @@
+<!--pages/mine/mine.wxml-->
+ <view class="user_id">
+  <view>
+  <image src="icon\user.png" mode=""/>
+    <text> 微信用户 </text>
+    <view>
+      <text> ID: </text>
+    </view>
+  </view>
+</view>
+
+<view class='search'>
+  <input type='text' 
+  placeholder='请输入WIFI或酒店名称进行搜索'
+  bindinput='input' 
+  bindconfirm='confirm'/>
+  <icon type='search' class='icons'></icon>
+  <view wx:for="{{result}}" wx:key='' class='result'>
+  <text wx:if="{{item.show}}">{{item.name}}</text>
+  </view>
+</view>

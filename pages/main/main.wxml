@@ -1,0 +1,17 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+  <image src="../image/ad.png" class="i0"></image>
+</view>
+
+<view class="container">  
+  <image class="image" src="../image/create.png" bindtap="GoToCreate"></image>
+  <image class="image" src="../image/search.png" bindtap="GoToMine"></image>
+</view>
+
+
+
+
+
+
+
+
